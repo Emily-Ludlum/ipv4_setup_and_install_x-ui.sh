@@ -28,10 +28,6 @@ apt update -y
 echo "安装依赖..."
 apt install -y wget curl socat cron
 
-# 安装 Warp
-echo "安装 Warp..."
-wget -N https://gitlab.com/fscarmen/warp/-/raw/main/menu.sh && bash menu.sh
-
 # 安装签发证书工具
 echo "安装签发证书工具..."
 curl https://get.acme.sh | sh
